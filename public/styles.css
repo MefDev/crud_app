@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background: url(https://wallpapers.com/images/hd/demon-slayer-tanjiro-in-forest-n9rt1z02542mjwra.webp);
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+h1, form, div{
+    background: white;
+    width: 100%;
+    margin: .25rem;
+    padding: .25rem 0 .25rem .75rem;
+    align-self: center;
+    border-radius: .25rem;
+    opacity: 75%;
+}
+div:last-of-type{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.half{
+    flex-basis: 31.92%;
+    height: 250px;
+    align-self: center;
+    flex-shrink: .25rem;
+}
+
+#content{
+    padding: 0 0 12rem .75rem;
+}
